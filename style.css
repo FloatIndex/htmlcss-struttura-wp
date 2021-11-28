@@ -1,0 +1,91 @@
+/* comune */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: 1% auto 1%;
+}
+/* fine comune */
+
+
+/* header */
+header {
+    height: 10%;
+    background-color: rgb(230, 127, 224);
+}
+/* fine header */
+
+
+/* main */
+main {
+    height: 75%;
+}
+
+/* article */
+article {
+    height: 41%;
+    background-color: rgb(223, 215, 134);
+    margin: 2% 0px;
+}
+/* fine article */
+
+/* section */
+section {
+    height: 55%;
+    background-color: rgb(58, 132, 247);
+}
+
+section > div {
+    background-color: rgb(179, 206, 228);
+}
+
+section .header {
+    height: 15%;
+    margin-bottom: 1.2%;
+}
+
+section .leftside.content {
+    height: 78%;
+    width: 19%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1.2%;
+}
+
+section .rightside.content {
+    height: 78%;
+    width: 19%;
+    float: right;
+    margin-left: 1%;
+    margin-bottom: 1.2%;
+}
+
+section .middle.content {
+    height: 78%;
+    width: 60%;
+    float: left;
+    margin-bottom: 1.2%;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* fine section */
+
+/* fine main */
+
+
+/* footer */
+footer {
+    height: 6%;
+    background-color: rgb(125, 22, 245);
+    margin-top: 0.5%;
+}
+/* fine footer */
